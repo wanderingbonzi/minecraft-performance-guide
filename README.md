@@ -31,7 +31,9 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
     **For AMD gpus and integrated graphics, I recommend you [follow this tutorial](https://www.youtube.com/watch?v=eZaJ2WHJsTs)**
 
-* Make sure to use the ``high performance`` power plan! To change it, go into windows search and type "control panel" then select "view by: large icons" in the top right corner, then click on "power options". You should [see this](https://imgur.com/a/y89c51r), then change the plan to "high performance" and you're done! It uses more power, but it gives better performance. (notably enabling turbo boost) If you don't see it by chance, click on "show additional plans" and it should show up.
+* Make sure to use the `high performance` power plan! To change it, go into windows search and type "control panel" then select "view by: large icons" in the top right corner, then click on "power options". You should [see this](https://imgur.com/a/y89c51r), then change the plan to "high performance" and you're done! It uses more power, but it gives better performance. (notably enabling turbo boost) If you don't see it by chance, click on "show additional plans" and it should show up.
+
+If you're on a laptop and use the high performance power plan, don't unplug it. Running anything on battery life is misery and it would drain quickly anyway.
 
 ## **Disbaling unnecessary services & startup programs**
 
@@ -59,10 +61,12 @@ After disabling the services, go to task manager and go to the "startup" tab. Di
 
 ## **Custom ISOs**
 
-* If you're lazy to do any optimizations on your own, I'd recommend using a custom Windows 10 ISO such as ``ggOS``, ``AtlasOS`` or``GhostSpectre Superlite``. These are *extremelly* stripped down versions of Windows. They include some tweaks which I haven't included, since they'd take a lot of time to do by hand. Out of all the 3, ggOS will provide the best fps/low latency at the cost of compatability and features, which you can read in [their discord server.](https://discord.gg/ggOS) 
+* If you're lazy to do any optimizations on your own, I'd recommend using a custom Windows 10 ISO such as `ggOS`, `AtlasOS` or`GhostSpectre Superlite`. These are *extremelly* stripped down versions of Windows. They include some tweaks which I haven't included, since they'd take a lot of time to do by hand. Out of all the 3, ggOS will provide the best fps/low latency at the cost of compatability and features, which you can read in [their discord server.](https://discord.gg/ggOS) 
 
 **PS:** If you want to install a custom ISO or any OS, you will need a USB stick and a program to burn the ISO to the USB. I recommend [ventoy](https://www.ventoy.net/en/index.html) as it's the easiest.
 
 ## ⛏**2. Optimizing Minecraft**
 
-After optimizing Windows, let's move onto the most important part of the tutorial
+After optimizing Windows, let's move onto the most important part of the tutorial; optimising the game itself.
+
+## **Before getting into game optimization, make sure to close __everything__ when launching into the game, try to keep background processes minimal.**
