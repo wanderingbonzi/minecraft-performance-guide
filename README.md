@@ -84,7 +84,7 @@ I would recommend using this JVM argument on a low end system:
 * `-Xms2G -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseLargePages -XX:+DisableExplicitGC -XX:G1MixedGCCountTarget=1`
 If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com/r/feedthebeast/comments/cjciv9/java_argumentsjvm_explaining_them_and_commonly/)
 
-**PS: After launching the game, open task manager and right click on 
+**PS: After launching the game, open task manager and right click on `OpenJDK Platform Library` and click on `go to details`, right click on javaaw.exe and `set the priority to high`.**
 
 ## **Performance Mods**
 * Now it's time for the meat of the guide; the performance enhancing mods!
