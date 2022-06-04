@@ -31,7 +31,7 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
     **For AMD gpus and integrated graphics, I recommend you [follow this tutorial](https://www.youtube.com/watch?v=eZaJ2WHJsTs)**
 
-* Make sure to use the `high performance` power plan! To change it, go into windows search and type "control panel" then select "view by: large icons" in the top right corner, then click on "power options". You should [see this](https://imgur.com/a/y89c51r), then change the plan to "high performance" and you're done! It uses more power, but it gives better performance. (notably enabling turbo boost) If you don't see it by chance, click on "show additional plans" and it should show up.
+* Make sure to use the `high performance` power plan! To change it, go into windows search and type "control panel" then select `view by: large icons` in the top right corner, then click on `power options`. You should [see this](https://imgur.com/a/y89c51r), then change the plan to `high performance` and you're done! It uses more power, but it gives better performance. (notably enabling turbo boost) If you don't see it by chance, click on `show additional plans` and it should show up.
 
 If you're on a laptop and use the high performance power plan, don't unplug it. Running anything on battery life is misery and it would drain quickly anyway.
 
@@ -57,7 +57,7 @@ If you're on a laptop and use the high performance power plan, don't unplug it. 
     **Touch Keyboard and Handwriting Panel Service**
 
 This list is from [this article](https://helpdeskgeek.com/windows-10/windows-10-unnecessary-services-you-can-disable-safely/), you can read up on what each one of these services does. 
-After disabling the services, go to task manager and go to the "startup" tab. Disable everything in it. This will prevent 10,000 programs opening up when you boot up your PC! Then go to the windows settings, privacy, then navigate over to the "background apps" section. turn everything off.
+After disabling the services, go to task manager and go to the `startup" tab`. Disable everything in it. This will prevent 10,000 programs opening up when you boot up your PC! Then go to the windows settings, privacy, then navigate over to the `background apps` section. turn everything off.
 
 ## **Custom ISOs**
 
@@ -70,3 +70,37 @@ After disabling the services, go to task manager and go to the "startup" tab. Di
 After optimizing Windows, let's move onto the most important part of the tutorial; optimising the game itself.
 
 ## **Before getting into game optimization, make sure to close __everything__ when launching into the game, try to keep background processes minimal.**
+
+## **JVM arguments & memory allocation.**
+* Before even launching the game, we must optimize the JVM arguments and allocate enough RAM to the game. I recommend you allocate `2gb`, `4gb` at most. This is because Java Garbage Collection doesn't do a great job of dealing with a lot of RAM. (so don't allocate 16gb or half your memory to mc) JVM arguments will give a small boost in fps, which doesn't hurt to add.
+
+I would recommend using this JVM argument on a low end system:
+* `-Xms2G -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseLargePages -XX:+DisableExplicitGC -XX:G1MixedGCCountTarget=1`
+If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com/r/feedthebeast/comments/cjciv9/java_argumentsjvm_explaining_them_and_commonly/)
+
+## **Performance Mods**
+* Now it's time for the meat of the guide; the performance enhancing mods!
+**All of the following mods will be using the [Fabric modloader](https://fabricmc.net/) due to it's supariorites over forge.**
+
+* ✨**Performance mods (1.18.2)**
+
+    [Fabric API](https://modrinth.com/mod/fabric-api) (Required)
+
+    * Required for most Fabric Mods
+    
+    [Sodium](https://modrinth.com/mod/sodium) (Extremelly Recommended)
+
+    * The most impactful mod; it replaces the vanilla engine with a modern opengl 4 engine, providing *very* big performance improvements
+    
+    [Lithium](https://modrinth.com/mod/lithium) (Extremelly Recommended)
+    
+    * Optimises game physics, mob AI, block ticking, etc. while preserving vanilla behaviour
+    
+    [Starlight](https://modrinth.com/mod/starlight) (Extremelly Recommended)
+    
+    * Completely rewrites the lighting engine, providing a big boost in chunk loading
+
+    [Ferritecore](https://modrinth.com/mod/ferrite-core) (Highly Recommended)
+
+    * Reduces memory usage, very useful in heavily moded scenarios or intense areas
+    
