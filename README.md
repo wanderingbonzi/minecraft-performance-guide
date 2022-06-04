@@ -1,9 +1,9 @@
 # 📈 Minecraft-performance-guide
-A guide on how to fully optimize Minecraft: Java Edition to squeeze out every, and last frame per second. I'm creating this for people with low end hardware, aka those who have troubles with running Minecraft at a playable, stable framerate. I've been a low end player for a while and I know the pain, and I wanna help by bringing you the biggest optimization guide!
+A guide on how to fully optimize Minecraft: Java Edition to squeeze out every, and last frame per second! I'm creating this for people with low end hardware, aka those who have troubles with running Minecraft at a playable, stable framerate. I've been a low end player for a while and I know the pain, and I wanna help by bringing you the biggest optimization guide!
 
-**Q: Will these tweaks mentioned break my system, Bonzi?**
+**Will these tweaks mentioned break my system, Bonzi?**
 
-**A:** It shouldn't. I've done most of these on my old, low end laptop and it didn't do too much harm. But since this is more organised, there's a smaller chance to break anything
+They shouldn't. I've done most of these on my old, low end laptop and it didn't do too much harm. But since this is more organised, there's a smaller chance to break anything
 
 **WARNING: If you end up breaking anything, I cannot be held accountable. I am just trying to help people.**
 
@@ -33,7 +33,13 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
 * Make sure to use the `high performance` power plan! To change it, go into windows search and type "control panel" then select `view by: large icons` in the top right corner, then click on `power options`. You should [see this](https://imgur.com/a/y89c51r), then change the plan to `high performance` and you're done! It uses more power, but it gives better performance. (notably enabling turbo boost) If you don't see it by chance, click on `show additional plans` and it should show up.
 
-If you're on a laptop and use the high performance power plan, don't unplug it. Running anything on battery life is misery and it would drain quickly anyway.
+**If you're on a laptop and use the high performance power plan, don't unplug it. Running anything on battery life is misery and it would drain quickly anyway.**
+
+* After changing the power plan, it's time to do some registry tweaks to further improve the performance. Press `windows + r` and type `regedit` in the run windows. Navigate over to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile` and double click on `NetworkThrottlngIndex` and type FFFFFFFF and save the changes. (this tweak will heavily help if you have high ping) Then double click on `SystemRepsonsivness` and change the value to 0, this will make your system and game feel much smoother. After that, go to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games` and double click on `GPU Priority` and change the value to 8. Then double click on `priority` and change the value to 6. Make sure that `schedulingcategory` is set to high.
+
+## **Change how Windows looks like**
+
+* Windows 10 by default has a lot of heavy effects and animations, which can make the system feel slow. Firstly, go to the `settings` and then `personalization`, go to `colours` and switch `transparency effect` to off. After you do that, go to windows search and type `advanced system settings`. After clicking on it, go to `advanced settings` and click on `performance`. Copy [these settings.](https://imgur.com/a/AEe3tH0)
 
 ## **Disbaling unnecessary services & startup programs**
 
