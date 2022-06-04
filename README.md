@@ -98,7 +98,11 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
     
     [Starlight](https://modrinth.com/mod/starlight) (Extremelly Recommended)
     
-    * Completely rewrites the lighting engine, providing a big boost in chunk loading
+    * Rewrites the lighting engine, making it faster and better
+
+    [LazyDFU](https://modrinth.com/mod/lazydfu) (Extremelly Recommended)
+
+    * Makes the game boot faster and use less resources while booting
 
     [Ferritecore](https://modrinth.com/mod/ferrite-core) (Highly Recommended)
 
