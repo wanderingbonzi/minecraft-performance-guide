@@ -125,3 +125,7 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
     [Enhancted Block Entities](https://modrinth.com/mod/ebe) (Moderately Recommended)
 
     * Makes some of the blocks such as beds or chests render differently, providing a considerable boost in areas with tons of chests or beds
+
+    [Krypton](https://modrinth.com/mod/krypton) (Moderately Recommended)
+
+    * Attempts to optimize the Minecraft networking stack
