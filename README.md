@@ -87,15 +87,15 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
     [Fabric API](https://modrinth.com/mod/fabric-api) (Required)
 
     * Required for most Fabric Mods
-    
+
     [Sodium](https://modrinth.com/mod/sodium) (Extremelly Recommended)
 
     * The most impactful mod; it replaces the vanilla engine with a modern opengl 4 engine, providing *very* big performance improvements
     
     [Lithium](https://modrinth.com/mod/lithium) (Extremelly Recommended)
-    
+
     * Optimises game physics, mob AI, block ticking, etc. while preserving vanilla behaviour
-    
+
     [Starlight](https://modrinth.com/mod/starlight) (Extremelly Recommended)
     
     * Rewrites the lighting engine, making it faster and better
@@ -108,3 +108,14 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
     * Reduces memory usage, very useful in heavily moded scenarios or intense areas
     
+    [Dashloader](https://modrinth.com/mod/dashloader) (Moderately Recommended)
+
+    * Makes the game load up much faster
+
+    [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) (Moderately Recommended)
+
+    * Makes Minecraft take up less resources while tabbed out of it
+
+    [Enhancted Block Entities](https://modrinth.com/mod/ebe) (Moderately Recommended)
+
+    * Makes some of the blocks such as beds or chests render differently, providing a considerable boost in areas with tons of chests or beds
