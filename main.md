@@ -36,4 +36,4 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
 ## **Custom ISOs**
 
-* If you're lazy to do any optimizations on your own, I'd recommend using a custom Windows 10 ISO such as ``ggOS``, ``AtlasOS`` or``GhostSpectre Superlite``. These are *extremelly* stripped down versions of Windows. Out of all the 3, ggOS will provide the best fps/low latency at the cost of compatability and features, which you can read in [their discord server.](https://discord.gg/ggOS)
+* If you're lazy to do any optimizations on your own, I'd recommend using a custom Windows 10 ISO such as ``ggOS``, ``AtlasOS`` or``GhostSpectre Superlite``. These are *extremelly* stripped down versions of Windows. They include some tweaks which I haven't included, since they'd take a lot of time to do by hand. Out of all the 3, ggOS will provide the best fps/low latency at the cost of compatability and features, which you can read in [their discord server.](https://discord.gg/ggOS)
