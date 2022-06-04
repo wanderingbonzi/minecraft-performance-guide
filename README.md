@@ -1,4 +1,4 @@
-# Minecraft-performance-guide
+# 💹 Minecraft-performance-guide
 A guide on how to fully optimize Minecraft: Java Edition to squeeze out every, and last frame per second.
 
 **Q: Who is this meant for?**
