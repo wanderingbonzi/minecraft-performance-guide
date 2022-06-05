@@ -98,7 +98,7 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
     **[Sodium](https://modrinth.com/mod/sodium) (Extremelly Recommended)**
 
-    * The most impactful mod; it replaces the vanilla engine with a modern opengl 4 engine, providing *very* big performance improvements
+    * Replaces the original vanilla engine with a more modern one, providing big improvements
     
     **[Lithium](https://modrinth.com/mod/lithium) (Extremelly Recommended)**
 
@@ -106,11 +106,11 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
     **[Starlight](https://modrinth.com/mod/starlight) (Extremelly Recommended)**
     
-    * Rewrites the lighting engine, making it faster and better
+    * Rewrites the lighting engine, making it faster and better especially with chunk loading
 
     **[LazyDFU](https://modrinth.com/mod/lazydfu) (Extremelly Recommended)**
 
-    * Makes the game boot faster and use less resources while booting
+    * Makes the game boot faster by skipping unnecessary work initializations
 
     **[Ferritecore](https://modrinth.com/mod/ferrite-core) (Highly Recommended)**
 
@@ -139,3 +139,13 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
     **[Krypton](https://modrinth.com/mod/krypton) (Moderately Recommended)**
 
     * Attempts to optimize the Minecraft networking stack
+
+    **[Ksyxis](https://www.curseforge.com/minecraft/mc-mods/ksyxis) (Moderately Recommended**
+
+    * Speeds up world loading times by skipping unnecessary procedures
+
+    **[Cull Leaves](https://modrinth.com/mod/cull-leaves) (Lowly Recommended)**
+
+    * Adds culling to leaves, similar to Optifines "smart leaves" option
+
+* And those are all the perfomance mods for 1.18.2! I've only provided basic info about them, but you can look into them further if you want to! If you wish to install any of them, firstly download [the Fabric Modloader](https://fabricmc.net/) and [Fabric API](https://modrinth.com/mod/fabric-api). Place the Fabric API mod in your mod folder (the mods folder is usually in the `C:\Users\<insertnamehere>\AppData\Roaming\.minecraft\mods` file path.), then download the mods you want to try out and place them in the mod folder aswell!
