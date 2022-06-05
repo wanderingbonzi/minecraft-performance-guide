@@ -50,6 +50,7 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 ## **Disbaling unnecessary services & startup programs**
 
 * Here's a list of services you can safely disable with no worry:
+
     **The Print Spooler**
 
     **Windows Image Acquisition**
