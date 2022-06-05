@@ -148,6 +148,10 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
     * Adds culling to leaves, similar to Optifines "smart leaves" option
 
+    **[Better Sodium Video Settings](https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button) (Bonus)**
+
+    * Restores the default vanilla settings menu while leaving a button for accessing sodium video settings, **this is required for changing the resolution**
+
 * And those are all the perfomance mods for 1.18.2! I've only provided basic info about them, but you can look into them further if you want to! If you wish to install any of them, firstly download [the Fabric Modloader](https://fabricmc.net/) and [Fabric API](https://modrinth.com/mod/fabric-api). Place the Fabric API mod in your mod folder (the mods folder is usually in the `C:\Users\<insertnamehere>\AppData\Roaming\.minecraft\mods` file path.), then download the mods you want to try out and place them in the mod folder aswell!
 
 ## **Why are you not recommending Optifine?!?**
@@ -160,4 +164,4 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
 ## **Game Settings**
 
-* Now when you're in-game, let's get into what video settings to use. 
+* Now when you're in-game, let's get into what video settings to use. [These](blob:https://imgur.com/660da976-6256-4267-a6ba-87a5b77e7b3a) settings are what I recommend for low end systems.
