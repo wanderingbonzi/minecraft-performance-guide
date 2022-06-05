@@ -164,4 +164,6 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
 ## **Game Settings**
 
-* Now when you're in-game, let's get into what video settings to use. [These](blob:https://imgur.com/660da976-6256-4267-a6ba-87a5b77e7b3a) settings are what I recommend for low end systems.
+* Now when you're in-game, let's get into what video settings to use. [These](https://imgur.com/a/0CrOTdp) settings are what I recommend for low end systems. Make sure to lower your resolution aswell! Setting it to 900p or 720p will give a considerable boost since it is displaying less pixels. (use [Better Sodium Settings](https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button) or [Sodium Extras](https://www.curseforge.com/minecraft/mc-mods/sodium-extra))
+
+* If you don't want to use these settings, turn everything to the lowest and then start testing out what settings work best for you. Ex, If your pc can handle more chunks, increase the render distance, if it can handle higher video settings, try turning them up. Rinse and repeat.
