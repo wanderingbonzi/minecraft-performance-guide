@@ -19,7 +19,7 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
 * For the purposes of this guide, we will be using [Sycnex's Windows 10 Debloater](https://github.com/Sycnex/Windows10Debloater). Download the debloater by clicking on the green "code" button and downloading it as a ZIP file. Once done, extract the contents to somewhere accessible, eg. desktop or documents. Find the file called ``Windows10DebloaterGUI.ps1`` and right click on it and click "run with powershell".
 
-[This is the GUI you will see.](https://i.imgur.com/JXOxWzq.png) Click on `remove all bloatware`, `disable cortana`,`disable edge pdf`,`disable telemetry/tasks`,`remove bloatware regkeys` and `install .NET 3.5`. This removes all of the bloatware and telemetry. You can do the other tweaks in the GUI aswell, but think before doing it. eg. don't uninstall onedrive if you use it.
+[This is the GUI you will see.](https://i.imgur.com/JXOxWzq.png) Click on `remove all bloatware`, `disable cortana`,`disable edge pdf`,`disable telemetry/tasks`,`remove bloatware regkeys` and `install .NET 3.5`. If it freezes, try to run it again and maybe try to restart windows.This removes all of the bloatware and telemetry. You can do the other tweaks in the GUI aswell, but think before doing it. eg. don't uninstall onedrive if you use it.
 
 ## **Changing settings**
 
