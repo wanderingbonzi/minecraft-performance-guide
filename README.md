@@ -114,8 +114,16 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
     **[Ferritecore](https://modrinth.com/mod/ferrite-core) (Highly Recommended)**
 
-    * Reduces memory usage, very useful in heavily moded scenarios or intense areas
+     * Reduces memory usage, very useful in heavily moded scenarios or intense areas
+
+    **[C2ME](https://modrinth.com/mod/c2me-fabric) (Highly Recommended)**
+
+    * Makes chunk loading faster, though it is very experimental
     
+    **[EntityCulling](https://modrinth.com/mod/entityculling) (Moderately Recommended)**
+
+    * Doesn't render entities behind a wall or entities which can't be seen, very good for areas full of entities
+
     **[Dashloader](https://modrinth.com/mod/dashloader) (Moderately Recommended)**
 
     * Makes the game load up much faster
