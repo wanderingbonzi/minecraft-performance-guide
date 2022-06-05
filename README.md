@@ -35,7 +35,7 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
 **If you're on a laptop and use the high performance power plan, don't unplug it. Running anything on battery life is misery and it would drain quickly anyway.**
 
-* After changing the power plan, it's time to do some registry tweaks to further improve the performance. Press `windows + r` and type `regedit` in the run windows. Navigate over to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile` and double click on `NetworkThrottlngIndex` and type FFFFFFFF and save the changes. (this tweak will heavily help if you have high ping) Then double click on `SystemRepsonsivness` and change the value to 0, this will make your system and game feel much smoother. After that, go to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games` and double click on `GPU Priority` and change the value to 8. Then double click on `priority` and change the value to 6. Make sure that `schedulingcategory` is set to high.
+* Registry tweaks can help out a bit, the following tweaks will regard network throttling and gpu priority. Press `windows + r` and type `regedit` in the run windows. Navigate over to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile` and double click on `NetworkThrottlngIndex` and type FFFFFFFF and save the changes. (this tweak will heavily help if you have high ping) Then double click on `SystemRepsonsivness` and change the value to 0, this will make your system and game feel much smoother. After that, go to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games` and double click on `GPU Priority` and change the value to 8. Then double click on `priority` and change the value to 6. Make sure that `schedulingcategory` is set to high.
 
 ## **Change how Windows looks like**
 
@@ -69,15 +69,15 @@ After disabling the services, go to task manager and go to the `startup" tab`. D
 
 * If you're lazy to do any optimizations on your own, I'd recommend using a custom Windows 10 ISO such as `ggOS`, `AtlasOS` or`GhostSpectre Superlite`. These are *extremelly* stripped down versions of Windows. They include some tweaks which I haven't included, since they'd take a lot of time to do by hand. Out of all the 3, ggOS will provide the best fps/low latency at the cost of compatability and features, which you can read in [their discord server.](https://discord.gg/ggOS) 
 
-**PS:** If you want to install a custom ISO or any OS, you will need a USB stick and a program to burn the ISO to the USB. I recommend [ventoy](https://www.ventoy.net/en/index.html) as it's the easiest.
+* If you want to install a custom ISO or any OS, you will need a USB stick and a program to burn the ISO to the USB. I recommend [ventoy](https://www.ventoy.net/en/index.html) as it's the easiest.
 
 ## ⛏**2. Optimizing Minecraft**
 
 After optimizing Windows, let's move onto the most important part of the tutorial; optimising the game itself.
 
-## **Before getting into game optimization, make sure to close __everything__ when launching into the game, try to keep background processes minimal.**
+## **Before getting into game optimization, make sure to close __everything__ when launching into the game, try to keep background programs minimal.**
 
-## **JVM arguments & memory allocation.**
+## **JVM arguments & memory allocation**
 * Before even launching the game, we must optimize the JVM arguments and allocate enough RAM to the game. I recommend you allocate `2gb`, `4gb` at most. This is because Java Garbage Collection doesn't do a great job of dealing with a lot of RAM. (so don't allocate 16gb or half your memory to mc) JVM arguments will give a small boost in fps, which doesn't hurt to add.
 
 I would recommend using this JVM argument on a low end system:
@@ -92,42 +92,42 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
 * ✨**Performance mods (1.18.2)**
 
-    [Fabric API](https://modrinth.com/mod/fabric-api) (Required)
+    **[Fabric API](https://modrinth.com/mod/fabric-api) (Required)**
 
     * Required for most Fabric Mods
 
-    [Sodium](https://modrinth.com/mod/sodium) (Extremelly Recommended)
+    **[Sodium](https://modrinth.com/mod/sodium) (Extremelly Recommended)**
 
     * The most impactful mod; it replaces the vanilla engine with a modern opengl 4 engine, providing *very* big performance improvements
     
-    [Lithium](https://modrinth.com/mod/lithium) (Extremelly Recommended)
+    **[Lithium](https://modrinth.com/mod/lithium) (Extremelly Recommended)**
 
     * Optimises game physics, mob AI, block ticking, etc. while preserving vanilla behaviour
 
-    [Starlight](https://modrinth.com/mod/starlight) (Extremelly Recommended)
+    **[Starlight](https://modrinth.com/mod/starlight) (Extremelly Recommended)**
     
     * Rewrites the lighting engine, making it faster and better
 
-    [LazyDFU](https://modrinth.com/mod/lazydfu) (Extremelly Recommended)
+    **[LazyDFU](https://modrinth.com/mod/lazydfu) (Extremelly Recommended)**
 
     * Makes the game boot faster and use less resources while booting
 
-    [Ferritecore](https://modrinth.com/mod/ferrite-core) (Highly Recommended)
+    **[Ferritecore](https://modrinth.com/mod/ferrite-core) (Highly Recommended)**
 
     * Reduces memory usage, very useful in heavily moded scenarios or intense areas
     
-    [Dashloader](https://modrinth.com/mod/dashloader) (Moderately Recommended)
+    **[Dashloader](https://modrinth.com/mod/dashloader) (Moderately Recommended)**
 
     * Makes the game load up much faster
 
-    [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) (Moderately Recommended)
+    **[Dynamic FPS](https://modrinth.com/mod/dynamic-fps) (Moderately Recommended)**
 
     * Makes Minecraft take up less resources while tabbed out of it
 
-    [Enhancted Block Entities](https://modrinth.com/mod/ebe) (Moderately Recommended)
+    **[Enhancted Block Entities](https://modrinth.com/mod/ebe) (Moderately Recommended)**
 
     * Makes some of the blocks such as beds or chests render differently, providing a considerable boost in areas with tons of chests or beds
 
-    [Krypton](https://modrinth.com/mod/krypton) (Moderately Recommended)
+    **[Krypton](https://modrinth.com/mod/krypton) (Moderately Recommended)**
 
     * Attempts to optimize the Minecraft networking stack
