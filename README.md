@@ -90,7 +90,7 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 * Now it's time for the meat of the guide; the performance enhancing mods!
 **All of the following mods will be using the [Fabric modloader](https://fabricmc.net/) due to it's supariorites over forge.**
 
-* ✨**Performance mods (1.18.2)**
+* 2.1 ✨**Performance mods (1.18.2)**
 
     **[Fabric API](https://modrinth.com/mod/fabric-api) (Required)**
 
