@@ -90,7 +90,7 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 * Now it's time for the meat of the guide; the performance enhancing mods!
 **All of the following mods will be using the [Fabric modloader](https://fabricmc.net/) due to it's supariorites over forge.**
 
-* 2.1 ✨**Performance mods (1.18.2)**
+* ✨**Performance mods (1.18.2)**
 
     **[Fabric API](https://modrinth.com/mod/fabric-api) (Required)**
 
@@ -160,4 +160,4 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
 ## **Game Settings**
 
-* Now when you're in-game, let's get into what video settings to use.
+* Now when you're in-game, let's get into what video settings to use. 
