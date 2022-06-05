@@ -21,7 +21,11 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
 [This is the GUI you will see.](https://i.imgur.com/JXOxWzq.png) Click on `remove all bloatware`, `disable cortana`,`disable edge pdf`,`disable telemetry/tasks`,`remove bloatware regkeys` and `install .NET 3.5`. If it freezes, try to run it again and maybe try to restart windows.This removes all of the bloatware and telemetry. You can do the other tweaks in the GUI aswell, but think before doing it. eg. don't uninstall onedrive if you use it.
 
-**Note: If your NVIDIA control panel broke as a side effect of the debloater, [follow this tutorial.](https://www.drivereasy.com/knowledge/nvidia-control-panel-missing-solved/)**
+## **Side-Effects**
+
+* If you experience any side-effects due to the debloater, I'll put possible solutions here. **If you experience a side-effect and have a fix for it, notify me.**
+
+[If your NVIDIA control panel broke as a side effect of the debloater, follow this tutorial.](https://www.drivereasy.com/knowledge/nvidia-control-panel-missing-solved/)**
 
 ## **Changing settings**
 
