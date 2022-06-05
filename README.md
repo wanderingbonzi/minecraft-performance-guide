@@ -5,14 +5,14 @@ A guide on how to fully optimize Minecraft: Java Edition to squeeze out every, a
 
 They shouldn't. I've done most of these on my old, low end laptop and it didn't do too much harm. But since this is more organised, there's a smaller chance to break anything
 
-**WARNING: If you end up breaking anything, I cannot be held accountable. I am just trying to help people.**
+## **WARNING: If you end up breaking anything, I cannot be held accountable. I am just trying to help people.**
 
 ## 🧽**1. Optimizing Windows 10**
 
 **(Note: If you use MacOS or any sort of Linux Distro, skip this first step!)**
 Windows 10 is, by default, very badly optimized. Things such as bloatware, background apps, services, search indexing, telemetry and much more will make your game and system lag. So let's get started!
 
-## **BEFORE DOING ANY OF THESE TWEAKS, MAKE SURE YOU HAVE ALL THE LATEST UPDATES FROM MICROSOFT INSTALLED TO MINIMIZE ERRORS!**
+## **BEFORE DOING ANY OF THESE TWEAKS, MAKE SURE YOU HAVE ALL THE LATEST WINDOWS UPDATES FROM MICROSOFT INSTALLED!**
 ## **Debloat**
 
 * Debloating will remove all of the unnecesssary bloatware from Windows 10. Freeing up background processes, storage, and most importantly RAM. RAM (random access memory) is basically memory used to run the OS and programs. Windows 10 uses 1,5 - 2,5 gb whilst idle from my experience, which is very bad, especially for low end systems with 4gb of ram.
