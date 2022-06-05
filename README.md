@@ -157,3 +157,7 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 * Features such as shaders, zoom and custom entity models have fabric equivalents, aka [Iris](https://modrinth.com/mod/iris), [Logical Zoom](https://modrinth.com/mod/logical-zoom) and [CIT Resewn](https://modrinth.com/mod/cit-resewn).
 
 ## **Optifine *may* work better on some hardware. If it does, then use it.**
+
+## **Game Settings**
+
+* Now when you're in-game, let's get into what video settings to use.
