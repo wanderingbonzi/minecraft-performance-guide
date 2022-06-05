@@ -25,7 +25,7 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
 * If you experience any side-effects due to the debloater, I'll put possible solutions here. **If you experience a side-effect and have a fix for it, notify me.**
 
-[If your NVIDIA control panel broke as a side effect of the debloater, follow this tutorial.](https://www.drivereasy.com/knowledge/nvidia-control-panel-missing-solved/)**
+[If your NVIDIA control panel broke as a side effect of the debloater, follow this tutorial.](https://www.drivereasy.com/knowledge/nvidia-control-panel-missing-solved/)
 
 ## **Changing settings**
 
