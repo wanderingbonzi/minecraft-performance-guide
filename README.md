@@ -134,7 +134,7 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
     **[Enhancted Block Entities](https://modrinth.com/mod/ebe) (Moderately Recommended)**
 
-    * Makes some of the blocks such as beds or chests render differently, providing a considerable boost in areas with tons of chests or beds
+    * Makes entities such as chests or beds use the baked block models, providing a considerable boost in areas with tons of chests or beds
 
     **[Krypton](https://modrinth.com/mod/krypton) (Moderately Recommended)**
 
@@ -149,3 +149,11 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
     * Adds culling to leaves, similar to Optifines "smart leaves" option
 
 * And those are all the perfomance mods for 1.18.2! I've only provided basic info about them, but you can look into them further if you want to! If you wish to install any of them, firstly download [the Fabric Modloader](https://fabricmc.net/) and [Fabric API](https://modrinth.com/mod/fabric-api). Place the Fabric API mod in your mod folder (the mods folder is usually in the `C:\Users\<insertnamehere>\AppData\Roaming\.minecraft\mods` file path.), then download the mods you want to try out and place them in the mod folder aswell!
+
+## **Why are you not recommending Optifine?!?**
+
+* I've been a Optifine user myself, but I ended up switching over and making a small Fabric modpack which has all of the features I need. **Optifine stopped being an actual optimization mod.** The developer refuses to rewrite the decade old code, and even worse; It's closed source. Which means that no one can view the source code. Now with open source projects, anyone can view and edit the code, and some people might even end up __improving__ it. Not to mention that it also breaks mods, wonder why Optifine isn't in large modpacks? Exactly.
+
+* Features such as shaders, zoom and custom entity models have fabric equivalents, aka [Iris](https://modrinth.com/mod/iris), [Logical Zoom](https://modrinth.com/mod/logical-zoom) and [CIT Resewn](https://modrinth.com/mod/cit-resewn).
+
+## **Optifine *may* work better on some hardware. If it does, then use it.**
