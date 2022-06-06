@@ -27,9 +27,11 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
 [If your NVIDIA control panel broke as a side effect of the debloater, follow this tutorial.](https://www.drivereasy.com/knowledge/nvidia-control-panel-missing-solved/)
 
+[If a Microsoft App you used disappeared, follow this tutorial.](https://gearupwindows.com/how-to-reinstall-microsoft-store-and-other-preinstalled-apps-in-windows-10/)
+
 ## **Changing settings**
 
-* After debloating, you can now go through all of the windows settings. (setings, control panel, file explorer settings, nvidia control panel, intel hd graphics ontrol panel, amd settings, etc.) Go through __all__ of them and cherrypick what you want on and what you don't. If you're unsure on what a certain setting does, do some research beforehand and determine if it's worth changing or not. Make sure to disable Xbox Game Bar though, it's an unnecessary annoyance.
+* After debloating, you can now go through all of the windows settings. (setings, control panel, file explorer settings, nvidia control panel,etc.) Go through __all__ of them and cherrypick what you want on and what you don't. If you're unsure on what a certain setting does, do some research beforehand and determine if it's worth changing or not. Make sure to disable Xbox Game Bar though, it's an unnecessary annoyance.
 
     **For NVIDIA gpus, I recommend you [follow this tutorial.](https://www.youtube.com/watch?v=KWEPjoit1_E&t=183s)**
     
