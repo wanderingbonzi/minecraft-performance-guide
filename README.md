@@ -1,7 +1,8 @@
+## **This is still under progress. I am releasing it early since it's almost done. There will be another section dedicated entirely to hardware.**
 # 📈 Minecraft-performance-guide
 A guide on how to fully optimize Minecraft: Java Edition to squeeze out every, and last frame per second! I'm creating this for people with low end hardware, aka those who have troubles with running Minecraft at a playable, stable framerate. I've been a low end player for a while and I know the pain, and I wanna help by bringing you the biggest optimization guide!
 
-🤔 **Will these tweaks mentioned break my system, Bonzi?**
+**Will these tweaks mentioned break my system, Bonzi?**
 
 They shouldn't. I've done most of these on my old, low end laptop and it didn't do too much harm. But since this is more organised, there's a smaller chance to break anything
 
