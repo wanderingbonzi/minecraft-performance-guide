@@ -206,6 +206,6 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
 ## **FPS Boosting Clients**
 
-* If you don't want to use Fabric or any of the mentioned mods and wanna use something more "complete" and well known, then it's time we talk about fps boosting clients. They are clients such as [Lunar Client](https://www.lunarclient.com/), [Badlion Client](https://client.badlion.net/), [Salwyrr Client](https://www.salwyrr.com/), and others. Since all of the mentioned use Optifine, I'll only be using lunar as an example.
+* If you don't want to use Fabric or any of the mentioned mods and wanna use something more "complete" and well known, then it's time we talk about fps boosting clients. They are clients such as [Lunar Client](https://www.lunarclient.com/), [Badlion Client](https://client.badlion.net/), [Salwyrr Client](https://www.salwyrr.com/), and others. Their purpose is to boost fps (obviously) and to add more mods and funcionality into the game. Since all of the mentioned use Optifine, I'll have to show you the Optifine settings I recommend.
 
 * [These are the Optifine settings I recommend.]()
