@@ -116,7 +116,7 @@ I would recommend using this JVM argument on a low end system:
 * `-Xms2G -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseLargePages -XX:+DisableExplicitGC -XX:G1MixedGCCountTarget=1`
 If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com/r/feedthebeast/comments/cjciv9/java_argumentsjvm_explaining_them_and_commonly/)
 
-**PS: After launching the game, open task manager and right click on `OpenJDK Platform Library` and click on `go to details`, right click on javaaw.exe and `set the priority to high`.**
+* **After launching the game, open task manager and right click on `OpenJDK Platform Library` and click on `go to details`, right click on javaaw.exe and `set the priority to high`.** Also while playing the game, make sure that `hardware acceleration` is disabled in any open program you have. Hardware acceleration is supposed to make your apps smoother by utilizing the GPU for it. While Minecraft is CPU-bound (to 1 core and 1 thread), the GPU is also useful since it can take on some of the more demadning parts of the game, making the CPU use its full potencial!
 
 ## **Performance Mods**
 * Now it's time for the meat of the guide; the performance enhancing mods!
