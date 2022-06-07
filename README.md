@@ -73,6 +73,30 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 This list is from [this article](https://helpdeskgeek.com/windows-10/windows-10-unnecessary-services-you-can-disable-safely/), you can read up on what each one of these services does. If you wanna disable even more services, search up what service(s) you wanna disable and decide if it's worth it or not.
 After disabling the services, go to task manager and go to the `startup" tab`. Disable everything in it. This will prevent 10,000 programs opening up when you boot up your PC! Then go to the windows settings, privacy, then navigate over to the `background apps` section. turn everything off.
 
+## **Programs**
+
+* This isn't a required step, just some recommendations. If you have a low end pc, here are some programs and tweaks for said programs that I recommend:
+
+    [Browser: Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) & [Better-Fox](https://github.com/yokoffing/Better-Fox) to replace Chrome.
+
+    [Discord: Openasar](https://openasar.dev/) to improve responsivness and smoothness.
+
+    [Photo Editor: Paint.NET](https://www.dotpdn.com/downloads/pdn.html) as a simple photo editing solution.
+
+    [Cleanmngr+](https://www.builtbybel.com/ms-apps/cleanmgrplus) to clean up unnecessary files.
+
+    [Emsisoft - Emergency Kit Free](https://www.emsisoft.com/en/home/emergencykit/) as an antivirus that's portable.
+
+    [Ventoy](https://www.ventoy.net/en/index.html) to boot from multiple ISOs.
+
+    [Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases) manage and see hidden NVIDIA settings.
+
+    [MSI Mode Utility](https://www.techpowerup.com/forums/attachments/msi_util_v3-exe.169994/) to manage device MSI modes and interrupt priorities.
+
+    [MultiMC](https://multimc.org/) to manage multiple instances of Minecraft.
+
+    [SKLauncher](https://skmedix.pl/sklauncher) as a cracked Minecraft launcher. (because tlauncher bad}
+
 ## **Custom ISOs**
 
 * If you're lazy to do any optimizations on your own, or want even more performance, I'd recommend using a custom Windows 10 ISO. Custom ISOs such as `ggOS`, `AtlasOS` or`GhostSpectre Superlite`are *extremelly* stripped down versions of Windows. They remove A LOT more features for the grand prize of better fps and lower input latency. Out of all the 3, ggOS will provide the best fps/low latency at the cost of compatability and features, which you can read in [their discord server.](https://discord.gg/ggOS) 
@@ -98,7 +122,7 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 * Now it's time for the meat of the guide; the performance enhancing mods!
 **All of the following mods will be using the [Fabric modloader](https://fabricmc.net/) due to it's supariorites over forge.**
 
-* ✨**Performance mods (1.18.2)**
+* ✨ **Performance mods (1.18.2 & above)**
 
     **[Fabric API](https://modrinth.com/mod/fabric-api) (Required)**
 
