@@ -9,21 +9,20 @@ They shouldn't. I've done most of these on my old, low end laptop and it didn't 
 
 ## 🧽**1. Optimizing Windows 10**
 
-**(Note: If you use MacOS or any sort of Linux Distro, skip this first step!)**
 Windows 10 is, by default, very badly optimized. Things such as bloatware, background apps, services, search indexing, telemetry and much more will make your game and system lag. So let's get started!
 
 ## **BEFORE DOING ANY OF THESE TWEAKS, MAKE SURE YOU HAVE ALL THE LATEST WINDOWS UPDATES FROM MICROSOFT INSTALLED!**
 ## **Debloat**
 
-* Debloating will remove all of the unnecesssary bloatware from Windows 10. Freeing up background processes, storage, and most importantly RAM. RAM (random access memory) is basically memory used to run the OS and programs. Windows 10 uses 1,5 - 2,5 gb whilst idle from my experience, which is very bad, especially for low end systems with 4gb of ram.
+* Debloating will remove all of the unnecesssary programs from Windows 10. Freeing up background processes, storage, and most importantly RAM. RAM (random access memory) is basically memory used to run the OS and programs. Windows 10 uses 1,5 - 2,5 gb whilst idle from my experience, which is very bad, especially for low end systems with 4gb of ram.
 
 * For the purposes of this guide, we will be using [Sycnex's Windows 10 Debloater](https://github.com/Sycnex/Windows10Debloater). Download the debloater by clicking on the green "code" button and downloading it as a ZIP file. Once done, extract the contents to somewhere accessible, eg. desktop or documents. Find the file called ``Windows10DebloaterGUI.ps1`` and right click on it and click "run with powershell".
 
-[This is the GUI you will see.](https://i.imgur.com/JXOxWzq.png) Click on `remove all bloatware`, `disable cortana`,`disable edge pdf`,`disable telemetry/tasks`,`remove bloatware regkeys` and `install .NET 3.5`. If it freezes, try to run it again and maybe try to restart windows.This removes all of the bloatware and telemetry. You can do the other tweaks in the GUI aswell, but think before doing it. eg. don't uninstall onedrive if you use it.
+[This is the GUI you will see.](https://i.imgur.com/JXOxWzq.png) Click on `remove all bloatware`,`disable edge pdf`,`disable telemetry/tasks`,`remove bloatware regkeys` and `install .NET 3.5`. If it freezes, try to run it again and maybe try to restart windows. This removes all of the bloatware and telemetry. You can do the other tweaks in the GUI aswell, but think before doing it. eg. don't uninstall onedrive if you use it, don't disable cortana if you use her.
 
 ## **Side-Effects**
 
-* If you experience any side-effects due to the debloater, I'll put possible solutions here. **If you experience a side-effect and have a fix for it, notify me.**
+* If you experience any side-effects due to the debloater, I'll put possible solutions here. **If you experience a side-effect and have a fix for it, notify me or add it yourself!**
 
 [If your NVIDIA control panel broke as a side effect of the debloater, follow this tutorial.](https://www.drivereasy.com/knowledge/nvidia-control-panel-missing-solved/)
 
@@ -31,7 +30,7 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
 ## **Changing settings**
 
-* After debloating, you can now go through all of the windows settings. (setings, control panel, file explorer settings, nvidia control panel,etc.) Go through __all__ of them and cherrypick what you want on and what you don't. If you're unsure on what a certain setting does, do some research beforehand and determine if it's worth changing or not. Make sure to disable Xbox Game Bar though, it's an unnecessary annoyance.
+* After debloating, now go through all of the windows settings, (setings, control panel, file explorer settings, nvidia control panel,etc.) and cherrypick what you want on and what you don't. If you're unsure on what a certain setting does, do some research beforehand and determine if it's worth changing or not. Make sure to disable Xbox Game Bar though, it's an unnecessary annoyance.
 
     **For NVIDIA gpus, I recommend you [follow this tutorial.](https://www.youtube.com/watch?v=KWEPjoit1_E&t=183s)**
     
@@ -51,7 +50,7 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
 ## **Disbaling unnecessary services & startup programs**
 
-* Here's a list of services you can safely disable with no worry:
+* To disable any of the services, go to windows search and type `services` and click on the top result. Here's a list of services you can safely disable with no worry:
 
     **The Print Spooler**
 
@@ -71,14 +70,14 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
     **Touch Keyboard and Handwriting Panel Service**
 
-This list is from [this article](https://helpdeskgeek.com/windows-10/windows-10-unnecessary-services-you-can-disable-safely/), you can read up on what each one of these services does. 
+This list is from [this article](https://helpdeskgeek.com/windows-10/windows-10-unnecessary-services-you-can-disable-safely/), you can read up on what each one of these services does. If you wanna disable even more services, search up what service(s) you wanna disable and decide if it's worth it or not.
 After disabling the services, go to task manager and go to the `startup" tab`. Disable everything in it. This will prevent 10,000 programs opening up when you boot up your PC! Then go to the windows settings, privacy, then navigate over to the `background apps` section. turn everything off.
 
 ## **Custom ISOs**
 
-* If you're lazy to do any optimizations on your own, I'd recommend using a custom Windows 10 ISO such as `ggOS`, `AtlasOS` or`GhostSpectre Superlite`. These are *extremelly* stripped down versions of Windows. They include some tweaks which I haven't included, since they'd take a lot of time to do by hand. Out of all the 3, ggOS will provide the best fps/low latency at the cost of compatability and features, which you can read in [their discord server.](https://discord.gg/ggOS) 
+* If you're lazy to do any optimizations on your own, or want even more performance, I'd recommend using a custom Windows 10 ISO. Custom ISOs such as `ggOS`, `AtlasOS` or`GhostSpectre Superlite`are *extremelly* stripped down versions of Windows. They remove A LOT more features for the grand prize of better fps and lower input latency. Out of all the 3, ggOS will provide the best fps/low latency at the cost of compatability and features, which you can read in [their discord server.](https://discord.gg/ggOS) 
 
-* If you want to install a custom ISO or any OS, you will need a USB stick and a program to burn the ISO to the USB. I recommend [ventoy](https://www.ventoy.net/en/index.html) as it's the easiest.
+* If you want to install a custom ISO or any OS, you will need a USB stick and a program to burn the ISO to the USB. I recommend [ventoy](https://www.ventoy.net/en/index.html) as it's the easiest. But [rufus](https://rufus.ie/en/) is also an option.
 
 ## ⛏**2. Optimizing Minecraft**
 
