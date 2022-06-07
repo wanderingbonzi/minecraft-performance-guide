@@ -7,7 +7,7 @@ They shouldn't. I've done most of these on my old, low end laptop and it didn't 
 
 ## **WARNING: If you end up breaking anything, I cannot be held accountable. I am just trying to help people.**
 
-## 🧽**1. Optimizing Windows 10**
+## 🧽 **1. Optimizing Windows 10**
 
 Windows 10 is, by default, very badly optimized. Things such as bloatware, background apps, services, search indexing, telemetry and much more will make your game and system lag. So let's get started!
 
@@ -24,9 +24,9 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
 * If you experience any side-effects due to the debloater, I'll put possible solutions here. **If you experience a side-effect and have a fix for it, notify me or add it yourself!**
 
-[If your NVIDIA control panel broke as a side effect of the debloater, follow this tutorial.](https://www.drivereasy.com/knowledge/nvidia-control-panel-missing-solved/)
+    [If your NVIDIA control panel broke as a side effect of the debloater, follow this tutorial.](https://www.drivereasy.com/knowledge/nvidia-control-panel-missing-solved/)
 
-[If a Microsoft App you used disappeared, follow this tutorial.](https://gearupwindows.com/how-to-reinstall-microsoft-store-and-other-preinstalled-apps-in-windows-10/)
+    [If a Microsoft App you used disappeared, follow this tutorial.](https://gearupwindows.com/how-to-reinstall-microsoft-store-and-other-preinstalled-apps-in-windows-10/)
 
 ## **Changing settings**
 
@@ -103,7 +103,7 @@ After disabling the services, go to task manager and go to the `startup" tab`. D
 
 * If you want to install a custom ISO or any OS, you will need a USB stick and a program to burn the ISO to the USB. I recommend [ventoy](https://www.ventoy.net/en/index.html) as it's the easiest. But [rufus](https://rufus.ie/en/) is also an option.
 
-## ⛏**2. Optimizing Minecraft**
+## ⛏ **2. Optimizing Minecraft**
 
 After optimizing Windows, let's move onto the most important part of the tutorial; optimising the game itself.
 
