@@ -109,20 +109,22 @@ After optimizing Windows, let's move onto the most important part of the tutoria
 
 ## **Before getting into game optimization, make sure to close __everything__ when launching into the game, try to keep background programs minimal.**
 
-## **JVM arguments & memory allocation**
+## **Pre-Game Launching**
 * Before even launching the game, we must optimize the JVM arguments and allocate enough RAM to the game. I recommend you allocate `2gb`, `4gb` at most. This is because Java Garbage Collection doesn't do a great job of dealing with a lot of RAM. (so don't allocate 16gb or half your memory to mc) JVM arguments will give a small boost in fps, which doesn't hurt to add.
 
-I would recommend using this JVM argument on a low end system:
-* `-Xms2G -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseLargePages -XX:+DisableExplicitGC -XX:G1MixedGCCountTarget=1`
+    I would recommend using this JVM argument on a low end system:
+`-Xms2G -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseLargePages -XX:+DisableExplicitGC -XX:G1MixedGCCountTarget=1`
 If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com/r/feedthebeast/comments/cjciv9/java_argumentsjvm_explaining_them_and_commonly/)
 
 * **After launching the game, open task manager and right click on `OpenJDK Platform Library` and click on `go to details`, right click on javaaw.exe and `set the priority to high`.** Also while playing the game, make sure that `hardware acceleration` is disabled in any open program you have. Hardware acceleration is supposed to make your apps smoother by utilizing the GPU for it. While Minecraft is CPU-bound (to 1 core and 1 thread), the GPU is also useful since it can take on some of the more demadning parts of the game, making the CPU use its full potencial!
 
-## **Performance Mods**
+* Make sure the game uses your discrete GPU! (if you have one) [How to do it on Nvidia cards](https://www.youtube.com/watch?v=ObG5glLPaSw), [how to do it on AMD cards](https://www.youtube.com/watch?v=36VbMtVivGU&t=53s)
+
+## **Optimization Mods**
 * Now it's time for the meat of the guide; the performance enhancing mods!
 **All of the following mods will be using the [Fabric modloader](https://fabricmc.net/) due to it's supariorites over forge.**
 
-* ✨ **Performance mods (1.18.2 & above)**
+* **Performance mods (1.18.2 & above)**
 
     **[Fabric API](https://modrinth.com/mod/fabric-api) (REQUIRED)**
 
@@ -208,4 +210,4 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
 * If you don't want to use Fabric or any of the mentioned mods and wanna use something more "complete" and well known, then it's time we talk about fps boosting clients. They are clients such as [Lunar Client](https://www.lunarclient.com/), [Badlion Client](https://client.badlion.net/), [Salwyrr Client](https://www.salwyrr.com/), and others. Their purpose is to boost fps (obviously) and to add more mods and funcionality into the game. Since all of the mentioned use Optifine, I'll have to show you the Optifine settings I recommend.
 
-* [These are the Optifine settings I recommend.]()
+* [These are the Optifine settings I recommend.](https://imgur.com/a/YveN84c) Again, if you don't want to use these settings, set everything to the lowest and start testing out what works best for you. Be sure to focus on the render distance, since it's an fps killer in most instances. If your pc can handle higher settings while still making the game look good in your eyes, then that's great!
