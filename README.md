@@ -202,4 +202,10 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
 * Now when you're in-game, let's get into what video settings to use. [These](https://imgur.com/a/0CrOTdp) settings are what I recommend for low end systems. Make sure to lower your resolution aswell! Setting it to 900p or 720p will give a considerable boost since it is displaying less pixels. (use [Better Sodium Settings](https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button) or [Sodium Extras](https://www.curseforge.com/minecraft/mc-mods/sodium-extra))
 
-* If you don't want to use these settings, turn everything to the lowest and then start testing out what settings work best for you. Ex, If your pc can handle more chunks, increase the render distance, if it can handle higher video settings, try turning them up. Rinse and repeat.
+* If you don't want to use these settings, turn everything down to the lowest and then start testing out what settings work best for you. Be sure to focus on the render distance, since it's an fps killer in most instances. If your pc can handle higher settings while still making the game look good in your eyes, then that's great!
+
+## **FPS Boosting Clients**
+
+* If you don't want to use Fabric or any of the mentioned mods and wanna use something more "complete" and well known, then it's time we talk about fps boosting clients. They are clients such as [Lunar Client](https://www.lunarclient.com/), [Badlion Client](https://client.badlion.net/), [Salwyrr Client](https://www.salwyrr.com/), and others. Since all of the mentioned use Optifine, I'll only be using lunar as an example.
+
+* [These are the Optifine settings I recommend.]()
