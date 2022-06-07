@@ -124,65 +124,69 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
 * ✨ **Performance mods (1.18.2 & above)**
 
-    **[Fabric API](https://modrinth.com/mod/fabric-api) (Required)**
+    **[Fabric API](https://modrinth.com/mod/fabric-api) (REQUIRED)**
 
-    * Required for most Fabric Mods
+    * Required for most Fabric Mods.
 
-    **[Sodium](https://modrinth.com/mod/sodium) (Extremelly Recommended)**
+    **[Sodium](https://modrinth.com/mod/sodium) (Extremely Recommended)**
 
-    * Replaces the original vanilla engine with a more modern one, providing big improvements
+    * Replaces the original vanilla engine with a more modern one, providing big improvements.
     
-    **[Lithium](https://modrinth.com/mod/lithium) (Extremelly Recommended)**
+    **[Lithium](https://modrinth.com/mod/lithium) (Extremely Recommended)**
 
-    * Optimises game physics, mob AI, block ticking, etc. while preserving vanilla behaviour
+    * Optimises game physics, mob AI, block ticking, etc. while preserving vanilla behaviour.
 
-    **[Starlight](https://modrinth.com/mod/starlight) (Extremelly Recommended)**
+    **[Starlight](https://modrinth.com/mod/starlight) (Extremely Recommended)**
     
-    * Rewrites the lighting engine, making it faster and better especially with chunk loading
+    * Rewrites the lighting engine, making it faster and better especially with chunk loading.
 
-    **[LazyDFU](https://modrinth.com/mod/lazydfu) (Extremelly Recommended)**
+    **[LazyDFU](https://modrinth.com/mod/lazydfu) (Extremely Recommended)**
 
-    * Makes the game boot faster by skipping unnecessary work initializations
+    * Makes the game boot faster by skipping unnecessary work initializations.
 
     **[Ferritecore](https://modrinth.com/mod/ferrite-core) (Highly Recommended)**
 
-     * Reduces memory usage, very useful in heavily moded scenarios or intense areas
+     * Reduces memory usage, very useful in heavily moded scenarios or intense areas.
 
     **[C2ME](https://modrinth.com/mod/c2me-fabric) (Highly Recommended)**
 
-    * Makes chunk loading faster, though it is very experimental
+    * Makes chunk loading faster, though it is very experimental.
     
     **[EntityCulling](https://modrinth.com/mod/entityculling) (Moderately Recommended)**
 
-    * Doesn't render entities behind a wall or entities which can't be seen, very good for areas full of entities
+    * Doesn't render entities behind a wall or entities which can't be seen, very good for areas full of entities.
 
     **[Dashloader](https://modrinth.com/mod/dashloader) (Moderately Recommended)**
 
-    * Makes the game load up much faster
+    * Makes the game load up much faster.
 
     **[Dynamic FPS](https://modrinth.com/mod/dynamic-fps) (Moderately Recommended)**
 
-    * Makes Minecraft take up less resources while tabbed out of it
+    * Makes Minecraft take up less resources while tabbed out of it.
 
     **[Enhancted Block Entities](https://modrinth.com/mod/ebe) (Moderately Recommended)**
 
-    * Makes entities such as chests or beds use the baked block models, providing a considerable boost in areas with tons of chests or beds
+    * Makes entities such as chests or beds use the baked block models, providing a considerable boost in areas with tons of chests or beds.
 
     **[Krypton](https://modrinth.com/mod/krypton) (Moderately Recommended)**
 
-    * Attempts to optimize the Minecraft networking stack
+    * Attempts to optimize the Minecraft networking stack.
 
     **[Ksyxis](https://www.curseforge.com/minecraft/mc-mods/ksyxis) (Moderately Recommended**
 
-    * Speeds up world loading times by skipping unnecessary procedures
+    * Speeds up world loading times by skipping unnecessary procedures.
 
     **[Cull Leaves](https://modrinth.com/mod/cull-leaves) (Lowly Recommended)**
 
-    * Adds culling to leaves, similar to Optifines "smart leaves" option
+    * Adds culling to leaves, similar to Optifines "smart leaves" option.
+
+    **[BiomeThreadLocalFix](https://github.com/RedLime/BiomeThreadLocalFix/releases) (Lowly Recommended)**
+
+    * Fixes the BiomeThreadLocalFix memory leak.
 
     **[Better Sodium Video Settings](https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button) (Bonus)**
 
-    * Restores the default vanilla settings menu while leaving a button for accessing sodium video settings, **this is required for changing the resolution**
+    * Restores the default vanilla settings menu while leaving a button for accessing sodium video settings, **this is required for changing the resolution.**
 
 * And those are all the perfomance mods for 1.18.2! I've only provided basic info about them, but you can look into them further if you want to! If you wish to install any of them, firstly download [the Fabric Modloader](https://fabricmc.net/) and [Fabric API](https://modrinth.com/mod/fabric-api). Place the Fabric API mod in your mod folder (the mods folder is usually in the `C:\Users\<insertnamehere>\AppData\Roaming\.minecraft\mods` file path.), then download the mods you want to try out and place them in the mod folder aswell!
 
@@ -192,7 +196,7 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
 * Features such as shaders, zoom and custom entity models have fabric equivalents, aka [Iris](https://modrinth.com/mod/iris), [Logical Zoom](https://modrinth.com/mod/logical-zoom) and [CIT Resewn](https://modrinth.com/mod/cit-resewn).
 
-## **Optifine *may* work better on some hardware. If it does, then use it.**
+## **Optifine *may* work better on some hardware due to Sodium's usage of newer OpenGL versions. If Optifine works better for you, then by all means use it.**
 
 ## **Game Settings**
 
