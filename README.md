@@ -1,5 +1,4 @@
 ## **This is still under progress. I am releasing it early since it's almost done. There will be another section dedicated entirely to hardware.**
-## **Guide will be on hiatus until further notice.**
 # 📈 Minecraft-performance-guide
 A guide on how to fully optimize Minecraft: Java Edition to squeeze out every, and last frame per second! I'm creating this for people with low end hardware, aka those who have troubles with running Minecraft at a playable, stable framerate. I've been a low end player for a while and I know the pain, and I wanna help by bringing you the biggest optimization guide!
 
@@ -126,7 +125,7 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 * Now it's time for the meat of the guide; the performance enhancing mods!
 **All of the following mods will be using the [Fabric modloader](https://fabricmc.net/) due to it's supariorites over forge.**
 
-* **Performance mods (1.18.2 & above)**
+* **Performance mods (1.19 & above)**
 
     **[Fabric API](https://modrinth.com/mod/fabric-api) (REQUIRED)**
 
@@ -190,9 +189,9 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
     **[Better Sodium Video Settings](https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button) (Bonus)**
 
-    * Restores the default vanilla settings menu while leaving a button for accessing sodium video settings, **this is required for changing the resolution.**
+    * Restores the default vanilla settings menu while leaving a button for accessing sodium video settings.
 
-* And those are all the perfomance mods for 1.18.2! I've only provided basic info about them, but you can look into them further if you want to! If you wish to install any of them, firstly download [the Fabric Modloader](https://fabricmc.net/) and [Fabric API](https://modrinth.com/mod/fabric-api). Place the Fabric API mod in your mod folder (the mods folder is usually in the `C:\Users\<insertnamehere>\AppData\Roaming\.minecraft\mods` file path.), then download the mods you want to try out and place them in the mod folder aswell!
+* And those are all the perfomance mods for 1.19! I've only provided basic info about them, but you can look into them further if you want to! If you need a more up to date list, I recommend checking out [NordicGamerFE's list of performance mods, which includes other versions aswell.](https://github.com/NordicGamerFE/usefulmods/tree/main/Performance) If you wish to install any of them, firstly download [the Fabric Modloader](https://fabricmc.net/) and [Fabric API](https://modrinth.com/mod/fabric-api). Place the Fabric API mod in your mod folder (the mods folder is usually in the `C:\Users\<insertnamehere>\AppData\Roaming\.minecraft\mods` file path.), then download the mods you want to try out and place them in the mod folder aswell!
 
 ## **Why are you not recommending Optifine?!?**
 
@@ -204,12 +203,12 @@ If you wanna learn more about JVM arguments, [look here.](https://www.reddit.com
 
 ## **Game Settings**
 
-* Now when you're in-game, let's get into what video settings to use. [These](https://imgur.com/a/0CrOTdp) settings are what I recommend for low end systems. Make sure to lower your resolution aswell! Setting it to 900p or 720p will give a considerable boost since it is displaying less pixels. (use [Better Sodium Settings](https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button) or [Sodium Extras](https://www.curseforge.com/minecraft/mc-mods/sodium-extra))
+* Now when you're in-game, let's get into what video settings to use. [These](https://imgur.com/a/0CrOTdp) settings are what I recommend for low end systems. Make sure to lower your resolution aswell! Setting it to 900p or 720p will give a considerable boost since it is displaying less pixels. **If you wannna change your resolution while using Sodium, click Shift and P at the same time while in the video settings menu to see the vanilla settings.
 
 * If you don't want to use these settings, turn everything down to the lowest and then start testing out what settings work best for you. Be sure to focus on the render distance, since it's an fps killer in most instances. If your pc can handle higher settings while still making the game look good in your eyes, then that's great!
 
-## **FPS Boosting Clients**
+## **PVP Clients**
 
-* If you don't want to use Fabric or any of the mentioned mods and wanna use something more "complete" and well known, then it's time we talk about fps boosting clients. They are clients such as [Lunar Client](https://www.lunarclient.com/), [Badlion Client](https://client.badlion.net/), [Salwyrr Client](https://www.salwyrr.com/), and others. Their purpose is to boost fps (obviously) and to add more mods and funcionality into the game. Since all of the mentioned use Optifine, I'll have to show you the Optifine settings I recommend.
+* If you don't want to use Fabric or any of the mentioned mods and wanna use something more "complete" and well known, then it's time we talk about pvp clients. They are clients such as [Lunar Client](https://www.lunarclient.com/), [Badlion Client](https://client.badlion.net/), [Salwyrr Client](https://www.salwyrr.com/), and others. Their purpose is to boost fps (obviously) and to add more mods and funcionality into the game for PVP purposes. Since all of the mentioned use Optifine, I'll have to show you the Optifine settings I recommend.
 
 * [These are the Optifine settings I recommend.](https://imgur.com/a/YveN84c) Again, if you don't want to use these settings, set everything to the lowest and start testing out what works best for you. Be sure to focus on the render distance, since it's an fps killer in most instances. If your pc can handle higher settings while still making the game look good in your eyes, then that's great!
