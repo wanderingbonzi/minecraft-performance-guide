@@ -1,25 +1,25 @@
 ## **This is still under progress. I am releasing it early since it's almost done. There will be another section dedicated entirely to hardware.**
 # 📈 Minecraft-performance-guide
-A guide on how to fully optimize Minecraft: Java Edition to squeeze out every, and last frame per second! I'm creating this for people with low end hardware, aka those who have troubles with running Minecraft at a playable, stable framerate. I've been a low end player for a while and I know the pain, and I wanna help by bringing you the biggest optimization guide!
+A guide on how to fully optimize Minecraft: Java Edition to squeeze out every, and last frame per second! I'm mainly creating this for people with low end hardware, aka those who have troubles with running Minecraft at a playable, stable framerate. This is also for people who wanna get a bit more performance out of their current hardware.
 
 **Will these tweaks mentioned break my system, Bonzi?**
 
-They shouldn't. I've done most of these on my old, low end laptop and it didn't do too much harm. But since this is more organised, there's a smaller chance to break anything
+They shouldn't. I've done most of these on my old, low end laptop and it didn't do too much harm. But since this is more organised, there's a smaller chance to break anything.
 
-## **WARNING: If you end up breaking anything, I cannot be held accountable. I am just trying to help people.**
+## **WARNING: DO THESE AT YOUR OWN RISK! I had no issues with performing these tweaks, but still do them at your own caution! Make sure to make a [System Backup!](https://www.youtube.com/watch?v=Nm2EjpsOXms)**
+## **BEFORE DOING ANY OF THESE TWEAKS, MAKE SURE YOU HAVE ALL THE LATEST WINDOWS UPDATES FROM MICROSOFT INSTALLED!**
 
 ## 🧽 **1. Optimizing Windows 10**
 
-Windows 10 is, by default, very badly optimized. Things such as bloatware, background apps, services, search indexing, telemetry and much more will make your game and system lag. So let's get started!
+Windows 10 is, by default, very badly optimized. Things such as bloatware, background apps, services, search indexing, telemetry and much more bring down performance in the OS, programs and games. So let's get started!
 
-## **BEFORE DOING ANY OF THESE TWEAKS, MAKE SURE YOU HAVE ALL THE LATEST WINDOWS UPDATES FROM MICROSOFT INSTALLED!**
 ## **Debloat**
 
 * Debloating will remove all of the unnecesssary programs from Windows 10. Freeing up background processes, storage, and most importantly RAM. RAM (random access memory) is basically memory used to run the OS and programs. Windows 10 uses 1,5 - 2,5 gb whilst idle from my experience, which is very bad, especially for low end systems with 4gb of ram.
 
 * For the purposes of this guide, we will be using [Sycnex's Windows 10 Debloater](https://github.com/Sycnex/Windows10Debloater). Download the debloater by clicking on the green "code" button and downloading it as a ZIP file. Once done, extract the contents to somewhere accessible, eg. desktop or documents. Find the file called ``Windows10DebloaterGUI.ps1`` and right click on it and click "run with powershell".
 
-[This is the GUI you will see.](https://i.imgur.com/JXOxWzq.png) Click on `remove all bloatware`,`disable edge pdf`,`disable telemetry/tasks`,`remove bloatware regkeys` and `install .NET 3.5`. If it freezes, try to run it again and maybe try to restart windows. This removes all of the bloatware and telemetry. You can do the other tweaks in the GUI aswell, but think before doing it. eg. don't uninstall onedrive if you use it, don't disable cortana if you use her.
+[This is the GUI you will see.](https://i.imgur.com/JXOxWzq.png) Click on `remove all bloatware`,`disable edge pdf`,`disable telemetry/tasks`,`remove bloatware regkeys` and `install .NET 3.5`. If it freezes, try to run it again and maybe try to restart windows. This removes most of the bloatware and telemetry. You can do the other tweaks in the GUI aswell, but think before doing it. eg. don't uninstall onedrive if you use it, don't disable cortana if you use it, etc.
 
 ## **Side-Effects**
 
@@ -31,48 +31,18 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
 ## **Changing settings**
 
-* After debloating, now go through all of the windows settings, (setings, control panel, file explorer settings, nvidia control panel,etc.) and cherrypick what you want on and what you don't. If you're unsure on what a certain setting does, do some research beforehand and determine if it's worth changing or not. Make sure to disable Xbox Game Bar though, it's an unnecessary annoyance.
+* After debloating, now go through all of the windows settings, (setings, control panel, file explorer settings, nvidia control panel,etc.) and cherrypick what you want on and what you don't. If you're unsure on what a certain setting does, do some research beforehand and determine if it's worth changing or not. In general, [this video](https://www.youtube.com/watch?v=pJTCwSX9Ym8) has the best settings I've seen. Don't do sequence 4, as we've already debloated Windows if you're following this step by step.
 
     **For NVIDIA gpus, I recommend you [follow this tutorial.]([https://www.youtube.com/watch?v=KWEPjoit1_E&t=183s](https://www.youtube.com/watch?v=_LMURlXc5-8)**
-    
     **For Intel HD graphics, I recommend you [follow this tutorial.](https://www.youtube.com/watch?v=3VV9okffK9M&t=256s)**
-
     **For AMD gpus and integrated graphics, I recommend you [follow this tutorial](https://www.youtube.com/watch?v=eZaJ2WHJsTs)**
 
-* Make sure to use the `high performance` power plan! To change it, go into windows search and type "control panel" then select `view by: large icons` in the top right corner, then click on `power options`. You should [see this](https://imgur.com/a/y89c51r), then change the plan to `high performance` and you're done! It uses more power, but it gives better performance. (notably enabling turbo boost) If you don't see it by chance, click on `show additional plans` and it should show up.
+* Make sure to use the `high performance` or power plan! To change it, go into windows search and type "control panel" then select `view by: large icons` in the top right corner, then click on `power options`. You should [see this](https://imgur.com/a/y89c51r), then change the plan to `high performance` or and you're done! It uses more power, but it gives better performance. (notably enabling turbo boost, which boosts your cpu speed at the cost of higher temps and power consumage) If you don't see it by chance, click on `show additional plans` and it should show up.
 
 **If you're on a laptop and use the high performance power plan, don't unplug it. Running anything on battery life is misery and it would drain quickly anyway.**
 
 * Registry tweaks can help out a bit, the following tweaks will regard network throttling and gpu priority. Press `windows + r` and type `regedit` in the run windows. Navigate over to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile` and double click on `NetworkThrottlngIndex` and type FFFFFFFF and save the changes. (this tweak will heavily help if you have high ping) Then double click on `SystemRepsonsivness` and change the value to 0, this will make your system and game feel much smoother. After that, go to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games` and double click on `GPU Priority` and change the value to 8. Then double click on `priority` and change the value to 6. Make sure that `schedulingcategory` is set to high.
-
-## **Change how Windows looks like**
-
-* Windows 10 by default has a lot of heavy effects and animations, which can make the system feel slow. Firstly, go to the `settings` and then `personalization`, go to `colours` and switch `transparency effect` to off. After you do that, go to windows search and type `advanced system settings`. After clicking on it, go to `advanced settings` and click on `performance`. Copy [these settings.](https://imgur.com/a/AEe3tH0)
-
-## **Disbaling unnecessary services & startup programs**
-
-* To disable any of the services, go to windows search and type `services` and click on the top result. Here's a list of services you can safely disable with no worry:
-
-    **The Print Spooler**
-
-    **Windows Image Acquisition**
-
-    **Fax Services**
-
-    **Windows Search**
-
-    **Windows Error Reporting**
-
-    **Windows Insider Service**
-
-    **Remote Desktop**
-
-    **Remote Registry**
-
-    **Touch Keyboard and Handwriting Panel Service**
-
-This list is from [this article](https://helpdeskgeek.com/windows-10/windows-10-unnecessary-services-you-can-disable-safely/), you can read up on what each one of these services does. If you wanna disable even more services, search up what service(s) you wanna disable and decide if it's worth it or not.
-After disabling the services, go to task manager and go to the `startup" tab`. Disable everything in it. This will prevent 10,000 programs opening up when you boot up your PC! Then go to the windows settings, privacy, then navigate over to the `background apps` section. turn everything off.
+Go to task manager and go to the `startup" tab`. Disable everything in it. This will prevent 10,000 programs opening up when you boot up your PC! Then go to the windows settings, privacy, then navigate over to the `background apps` section. turn everything off.
 
 ## **Programs**
 
@@ -94,15 +64,15 @@ After disabling the services, go to task manager and go to the `startup" tab`. D
 
     [MSI Mode Utility](https://www.techpowerup.com/forums/attachments/msi_util_v3-exe.169994/) to manage device MSI modes and interrupt priorities.
 
-    [MultiMC](https://multimc.org/) to manage multiple instances of Minecraft.
+    [Prism Launcher]([https://multimc.org/](https://prismlauncher.org/)) to manage multiple instances of Minecraft.
 
     [SKLauncher](https://skmedix.pl/sklauncher) as a cracked Minecraft launcher. (because tlauncher bad}
 
 ## **Custom ISOs**
 
-* If you're lazy to do any optimizations on your own, or want even more performance, I'd recommend using a custom Windows 10 ISO. Custom ISOs such as `ggOS`, `AtlasOS` or`GhostSpectre Superlite`are *extremelly* stripped down versions of Windows. They remove A LOT more features for the grand prize of better fps and lower input latency. Out of all the 3, ggOS will provide the best fps/low latency at the cost of compatability and features, which you can read in [their discord server.](https://discord.gg/ggOS) 
+* If you're lazy to do any optimizations on your own, or want even more performance, I'd recommend using a custom Windows 10 ISO. Custom ISOs such as `ggOS`, `AtlasOS` or`GhostSpectre Superlite`are *extremelly* stripped down versions of Windows. They remove A LOT more features and components from windows, for the grand prize of better fps and lower input latency. Out of all the 3, ggOS will provide the best fps/low latency at the cost of compatability and features, which you can read in [their discord server.](https://discord.gg/ggOS) 
 
-* If you want to install a custom ISO or any OS, you will need a USB stick and a program to burn the ISO to the USB. I recommend [ventoy](https://www.ventoy.net/en/index.html) as it's the easiest. But [rufus](https://rufus.ie/en/) is also an option.
+* If you want to install a custom ISO or any OS, you will need a USB stick and a program to burn the ISO to the USB. I recommend [ventoy](https://www.ventoy.net/en/index.html) as it's the easiest and simplest, but [rufus](https://rufus.ie/en/) is also an option.
 
 ## ⛏ **2. Optimizing Minecraft**
 
