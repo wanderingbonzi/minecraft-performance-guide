@@ -33,7 +33,7 @@ Windows 10 is, by default, very badly optimized. Things such as bloatware, backg
 
 * After debloating, now go through all of the windows settings, (setings, control panel, file explorer settings, nvidia control panel,etc.) and cherrypick what you want on and what you don't. If you're unsure on what a certain setting does, do some research beforehand and determine if it's worth changing or not. In general, [this video](https://www.youtube.com/watch?v=pJTCwSX9Ym8) has the best settings I've seen. Don't do sequence 4, as we've already debloated Windows if you're following this step by step.
 
-    **For NVIDIA gpus, I recommend you [follow this tutorial.]([https://www.youtube.com/watch?v=KWEPjoit1_E&t=183s](https://www.youtube.com/watch?v=_LMURlXc5-8)**
+    **For NVIDIA gpus, I recommend you [follow this tutorial.](https://www.youtube.com/watch?v=_LMURlXc5-8)**
 
     **For Intel HD graphics, I recommend you [follow this tutorial.](https://www.youtube.com/watch?v=3VV9okffK9M&t=256s)**
 
